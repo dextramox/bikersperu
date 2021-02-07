@@ -202,11 +202,11 @@ aside{
 
     aside {
         display: inline-block;
-    width: 280px;
+    width: 300px;
     min-height: unset;
     background:orange;
     float: left;
-    margin: 30px;
+    margin: 10px;
     }
     nav ul li{
         display: inline-block;
