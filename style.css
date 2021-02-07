@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+    background-color:white;
+}
+body {
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+.principal img{
+    max-width: 85%;
+    margin: 0 auto;
+    border:ridge black;
+    display: block;
+   height: 600;
+  /*display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;  
+  height: 100vh;*/ 
+   
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    
+    color:black;
+    
+    
+}
+h2 {
+    font-family: 'Anton', sans-serif;
+     color:gray;
+     position:initial;
+     text-align: center;
+     margin: 0;
+     
+}
+nav {
+    background: orange;
+    /*height: 35px;*/
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+}
+nav ul li a{
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: chartreuse;
+    color:grey;
+}
+#recorrido2 h1{
+    position: relative;
+    font-family: 'Passion One', cursive;
+    color:red;
+    text-align: left;
+    left: 30px;
+}
+.first {
+    position :relative;
+    max-width: 35%;
+    margin: 0;
+    border:ridge black;
+    left: 20px;
+    
+   
+   
+}
+.dedo {
+    position: relative;
+    left: 30px;
+    max-width: 35%;
+    border:ridge black;
+    
+    
+   
+  /*  margin: 0;*/
+    
+}
+.ruinas {
+    position: relative;
+    left: 20px;
+    max-width: 35%;
+    border:ridge black;
+    
+}
+.client {
+    position: relative;
+    left: 30px;
+    max-width: 35%;
+    border:ridge black;
+    
+}
+.yabajo {
+    position: relative;
+    left: 20px;
+    max-width: 35%;
+    border:ridge black;
+    
+}
+.playa {
+    position: relative;
+    left: 30px;
+    max-width: 35%;
+    border:ridge black;
+}
+.final {
+    position: relative;
+    left: 20px;
+    max-width: 71%;
+    border:ridge black;
+    
+}
+   
+
+aside{
+    display: inline-block;
+    width: 300px;
+    min-height: unset;
+    background:orange;
+    float: right;
+    margin: 30px;
+   /* width: 50%;
+    padding-left: 50px;
+    margin-left: 50px;
+    float: inline-end;
+    font-style: italic;
+    background-color: lightgray;*/
+  }
+  aside h1{
+      color:black;
+      font-size: 30px;
+      font-family: 'Passion One', cursive;
+  }
+  footer {
+      width: 100%;
+      background: #202020;
+      color: white;
+  }
+  .container-body {
+      display: flex;
+  }
+  footer .container-body .columna1 h1{
+      max-width: 50px;
+      color: white;
+      font-size: 22px;
+  }
+  footer .container-body .columna3 {
+      font-size: 22px;
+  }
+  .colun3 {
+      padding: 50px;
+  }
+  .column2 h1{
+      color:gray;
+  }
+  .colun3 h1 {
+      color:fuchsia;
+    
+      
+  }
+  .row2 {
+      margin-top: 10px;
+      
+  }
+  .row3 {
+      margin-top: 10px;
+      
+  }
+  @media (max-width: 700px){
+    .news-car {
+        grid-template-columns: repeat(2,1fr);
+    }
+    }
+  @media (max-width: 500px){
+   .news-car img{
+    position: relative;
+    
+    
+    max-width: 80%;
+    border:ridge black;
+
+   }
+
+    aside {
+        display: inline-block;
+    width: 400px;
+    min-height: unset;
+    background:orange;
+    float: left;
+    margin: 30px;
+    }
+    nav ul li{
+        display: inline-block;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+  }
